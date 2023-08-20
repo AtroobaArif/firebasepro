@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+
+  .transaction-form {
+    color: #888;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+  display: flex;
+  align-items: center;
+  width: 248px; 
+  position: relative;
+  top: 40px; 
+  left: 140px; 
+}
+ .username-form img, .transaction-form label {
+  margin-left: 30px;
+  max-width: 20px;
+  height: auto;
+} 
+.transaction-form .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-form input[type="radio"] {
+  margin-right: 30px; /* Add spacing between radio buttons if desired */
+}
+
+
+.username-form input {
+    position: center;
+    font-size: 15px;
+    border: none;
+  width: 248px; 
+  left: 140px; 
+  top: 20px;
+   position: absolute; 
+   border-bottom: 0.50px #D4D3D3 solid;
+   border-radius: 0;
+}  
+
+  .username-form label { 
+  flex-grow: 1; 
+  margin-right: auto; 
+}
+
+.username-form input::placeholder {
+  color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.username-form .form-group { 
+  position: relative;
+}
+
+.username-form .logo-container {
+   position: absolute;
+  right: 120px;
+  top: 170%;
+  transform: translateY(-50%);
+} 
+
+.username-form .logo-container img {
+  max-width: 20px;
+  height: auto;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: #61B846;
+  color: #FFFFFF;
+  width: 252px;
+  height: 69px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 5px #D4D3D3;
+  color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+a.btn {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #518f3e;
+}
+.box5-text-center{
+   margin-left: 140px;   /*px position change to align in center */
+}
+.register-link {
+  left: 160px;
+  top: 200px;
+  position: absolute;
+  color: #024F9D;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+ 
+
+
